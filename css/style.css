@@ -875,7 +875,8 @@ section {
 }
 
 section.home {
-  background: #353353;
+  /*background: #353353;*/
+  background: #454d55;
   padding: 0;
   height: 100vh;
   min-height: 100vh;
@@ -1796,7 +1797,8 @@ footer.footer.light {
 /*=================================================================*/
 body.dark {
   color: #FFF;
-  background-color: #353353;
+  /*background-color: #353353;*/
+  background-color: #454d55;
 }
 body.dark .section-title {
   color: #FFF;
@@ -1805,7 +1807,8 @@ body.dark .section-title:before {
   background: url("../fonts/dots-bg-light.svg");
 }
 body.dark .bg-dark {
-  background: #302f4e !important;
+  /*background: #302f4e !important;*/
+  background: #2f3439 !important;
 }
 body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6 {
   color: #FFF;
