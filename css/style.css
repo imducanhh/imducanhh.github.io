@@ -1817,7 +1817,7 @@ body.dark .triangle-top:before {
   border-bottom-color: #302f4e;
 }
 body.dark .timeline.exp .timeline-container::after, body.dark .timeline.edu .timeline-container::after {
-  background: #302f4e;
+  background: #2f3439;
 }
 body.dark .portfolio-filter li {
   color: #FFF;
@@ -2720,7 +2720,7 @@ body {
   }
 
   body.dark .triangle-left-md:before {
-    border-right-color: #302f4e;
+    border-right-color: #2f3439;
   }
 }
 @media only screen and (max-width: 576px) {
