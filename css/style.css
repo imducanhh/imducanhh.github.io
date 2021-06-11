@@ -105,7 +105,8 @@ h4 {
 }
 
 a {
-  color: #FF4C60;
+  /*color: #FF4C60;*/
+  color: #fc5404;
   outline: 0;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1914,7 +1915,8 @@ body.dark .blog-page-section .blog-single {
 }
 .btn-default {
   color: #FFF;
-  background: #FF4C60;
+  /*background: #FF4C60;*/
+  background: #fc5404;
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -2171,7 +2173,8 @@ body.dark .blog-page-section .blog-single {
   background: #FFF;
   font-family: "simple-line-icons";
   font-size: 24px;
-  color: #FF4C60;
+  /*color: #FF4C60;*/
+  color: #fc5404;
   position: absolute;
   left: -7px;
   top: 0;
@@ -2183,7 +2186,8 @@ body.dark .blog-page-section .blog-single {
 }
 
 .timeline .content .time {
-  color: #8B88B1;
+  /*color: #8B88B1;*/
+  color: white;
   font-size: 14px;
 }
 
@@ -2199,7 +2203,8 @@ body.dark .blog-page-section .blog-single {
 .timeline span.line {
   position: absolute;
   width: 1px;
-  background-color: #FF4C60;
+  /*background-color: #FF4C60;*/
+  background-color: #fc5404;
   top: 30px;
   bottom: 30px;
   left: 34px;
@@ -2210,10 +2215,11 @@ body.dark .blog-page-section .blog-single {
   margin-right: 1.5rem;
 }
 .social-icons li a {
-  font-size: 21px;
+  font-size: 28px;
 }
 .social-icons.light li a:hover {
-  color: #FFD15C;
+  /*color: #FFD15C;*/
+  color: #fc5404;
 }
 
 /* === Go to Top === */
