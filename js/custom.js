@@ -390,4 +390,13 @@ $(function(){
         }, 400);
     });
 
+    $("#download1").on('click', function(){
+        $("#download2").css("visibility", "visible");
+        $(this).css("visibility", "hidden");
+      });
+
+    $("#download2").on('click', function(){
+      $("#download2").css("visibility", "hidden");
+      $("#download1").css("visibility", "visible");
+    });
 });
