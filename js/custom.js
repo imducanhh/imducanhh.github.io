@@ -390,13 +390,28 @@ $(function(){
         }, 400);
     });
 
-    $("#download1").on('click', function(){
-        $("#download2").css("visibility", "visible");
-        $(this).css("visibility", "hidden");
-      });
+    $(".btn-custom").on('mouseover', function(){
+        var random = Math.floor(Math.random() * 3) + 2;
 
-    $("#download2").on('click', function(){
-      $("#download2").css("visibility", "hidden");
-      $("#download1").css("visibility", "visible");
+        if (random == 2) {
+          $("#download1").css("visibility", "visible");
+          $("#download2").css("visibility", "hidden");
+          $("#download3").css("visibility", "hidden");
+        }
+
+        if (random == 3) {
+          $("#download1").css("visibility", "hidden");
+          $("#download2").css("visibility", "visible");
+          $("#download3").css("visibility", "hidden");
+        }
+
+        if (random == 4) {
+          $("#download1").css("visibility", "hidden");
+          $("#download2").css("visibility", "hidden");
+          $("#download3").css("visibility", "visible");
+        }
+      });
+    $(".btn-custom").on('click', function(){
+      $(this).css("visibility", "hidden");
     });
 });

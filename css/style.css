@@ -1966,6 +1966,12 @@ body.dark .blog-page-section .blog-single {
 }
 
 #download2 {
+  margin-left: 30px;
+  visibility: hidden;
+}
+
+#download3 {
+  margin-left: 30px;
   visibility: hidden;
 }
 
